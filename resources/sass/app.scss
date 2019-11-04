@@ -1,1 +1,9 @@
-//
+@tailwind base;
+
+@tailwind components;
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+@tailwind utilities;
