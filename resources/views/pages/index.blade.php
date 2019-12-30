@@ -1,19 +1,14 @@
 @extends('layout')
 @section('content')
-    <div class="content">
-        <div class="title m-b-md">
-            Laravel
-        </div>
-
-        <div class="links">
-            <a href="https://laravel.com/docs">Docs</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://blog.laravel.com">Blog</a>
-            <a href="https://nova.laravel.com">Nova</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://vapor.laravel.com">Vapor</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
+<div class="hero" style="background-image: url('https://via.placeholder.com/1920x1080')">
+    <div class="overlay">
+    </div>
+    <div class="hero-content">
+        <img src="{{ asset('/img/alex.jpg') }}" alt="Alejandro Otero Gómez" class="rounded-full border-gray-400 border-8 h-64 w-64">
+        <div class="name">
+            <h1>Alejandro <span>Otero</span></h1>
         </div>
     </div>
+
+</div>
 @endsection

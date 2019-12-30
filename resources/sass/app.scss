@@ -2,8 +2,37 @@
 
 @tailwind components;
 
+/** 
+ * Estilos generales
+ */
+
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
+}
+
+/**
+ * Hero de página de inicio
+ */
+.hero {
+    @apply bg-local h-screen bg-center flex justify-center items-center;
+}
+
+.overlay {
+    z-index: 1;
+    @apply h-full bg-gray-800 opacity-75 absolute top-0 bottom-0 left-0 right-0;
+}
+
+.hero-content {
+    @apply w-full h-auto text-center flex justify-center items-center flex-col;
+    z-index: 3;
+}
+
+.name h1 {
+    @apply text-gray-400 uppercase text-3xl font-bold mt-5;
+}
+
+.name h1 span {
+    @apply text-teal-500;
 }
 
 @tailwind utilities;
